@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/utils": ["utils/index"],
+      "@/redux": ["redux/index"],
+      "@/components": ["components/index"],
+      "@/containers": ["components/containers/index"],
+      "@/common": ["components/common/index"]
+    }
+  }
+}
