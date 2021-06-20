@@ -3,7 +3,6 @@ import MovieCardStyles, { Title, StyledTag, TextWrapper, MetaWrapper } from './s
 import Highlighter from 'react-highlight-words';
 
 const MovieCard = ({ movie, params }) => {
-  console.log({ params });
   return (
     <MovieCardStyles poster={movie?.Poster}>
       <TextWrapper>

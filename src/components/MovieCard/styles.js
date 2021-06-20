@@ -25,7 +25,6 @@ export default styled.div`
   width: 300px;
   width: clamp(150px, 50vw + 6rem, 300px);
   display: flex;
-  cursor: pointer;
 
   animation: 0.4s ${hoverFade} forwards;
 
